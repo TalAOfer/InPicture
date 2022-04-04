@@ -62,7 +62,7 @@ function renderQuest() {
 
         strHTML += `<div class="none quest${i + 1}">
 
-<img src="/img/${i + 1}.jpg" alt="" class="animal-imgs">
+<img src="img/${i + 1}.jpg" alt="" class="animal-imgs">
 
 <button class="first-choice" onclick="isCorrect(this)">
     ${gQuests[i].opts[0]}
